@@ -1,0 +1,18 @@
+body {
+    font-family: Allaina, serif;
+/*Going with a more Halloween/horror themed colour pallete*/
+    background: #ea7e17;
+}
+
+nav {
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    display: inline-block;
+    border: 5px solid #05031d;
+    border-radius: 30px;
+    transform: translateX(-50%);
+/*Slight animation here might change it later to test various animations*/
+    animation: fade-in 1s ease-out;
+}
+

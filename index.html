@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Document</title>
 </head>
 <body>
@@ -31,10 +32,10 @@
             <li><a href="tabs">Movies</a>
                 <ul>
 <!--Iconic Horror Movie Names were used XD-->
-                    <li><a href="#">Scream</a></li>
-                    <li><a href="#">Halloween</a></li>
-                    <li><a href="#">Friday the 13th</a></li>
-                    <li><a href="#">Nightmare on Elm Street</a></li>
+                    <li>Scream</li>
+                    <li>Halloween</li>
+                    <li>Friday the 13th</li>
+                    <li>Nightmare on Elm Street</li>
                 </ul>
         <!--Optgrouping doesn't work too well with the function of a nav bar tab
                 <optgroup label="Local Stores">
@@ -48,7 +49,13 @@
             <li><a href="tabs">Contact</a>
                 <ul>
                     <li>Email</li>
-                    <li>Phone Number</li>
+<!--Testing the possiblity of putting a list within a list-->
+                    <li>Phone Number
+                        <ul>
+<!--Can be done, but with an unordered list tag first followed by a list tag-->
+                            <li>(123)456-7890</li>
+                        </ul>
+                    </li>
                 </ul>
             </li>
             <li><a href="tabs">Login</a></li>
